@@ -5,7 +5,7 @@ $(window).bind('hashchange', function() {
 });
 
 $(document).ready(function() {
-	var page = window.location.hash;
+	var lang = window.location.hash;
 	if ( lang == "#nl" ) nl();
 	if ( lang == "#en" ) en();
 });
